@@ -1,0 +1,16 @@
+{
+  "report_title": "Monthly Sales Report",
+  "company_name": "Demo Company",
+  "data_file": "data/sales_data.csv",
+  "report_format": "both",
+  "chart_column": "Revenue",
+  "schedule": {
+    "type": "daily",
+    "time": "08:00"
+  },
+  "email": {
+    "recipients": ["your_email@gmail.com"],
+    "subject": "Your Automated Report — {date}",
+    "body": "Hi,\n\nPlease find attached your {report_title} for {date}.\n\nGenerated automatically by Report Generator.\n\nRegards,\nReport Bot"
+  }
+}
